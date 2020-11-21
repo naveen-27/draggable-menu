@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <title>Dragabble Menu</title>
+</head>
+<body>
+  <div class="toggle-menu" draggable="true">
+    <img src="menu.svg" alt="Menu toggle">
+  </div>
+
+  <ul class="menu">
+    <li>One</li>
+    <li class="expand-head">
+      Two <span class="expand">&gt;</span>
+      <ul class="level-one">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+    </li>
+    <li>Three</li>
+    <li>Four</li>
+    <li>Five</li>
+  </ul>
+  <script src="app.js"></script>
+</body>
+</html>
